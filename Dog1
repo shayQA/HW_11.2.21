@@ -1,0 +1,15 @@
+package com.company;
+
+public class Dog1 extends Animal {
+    public int barkLength;
+
+    public Dog1(String name, double size, String color, int barkLength) {
+        super(name, size, color);
+        this.barkLength = barkLength;
+    }
+
+    public void guardHouse(Dog1 d)
+    {
+        System.out.println(d.name+" guards the house.");
+    }
+}
