@@ -1,0 +1,39 @@
+package com.company;
+import java.util.Scanner;
+import java.util.Random;
+
+
+public class Main {
+
+
+
+    public static void main(String[] args) {
+        Animal a1= new Animal("Mizi",5.5,"brown");
+        Dog1 d1= new Dog1("Lucki",10.7,"white",3);
+        Labrador l1= new Labrador("Chiff",40.8,"black",7,3.3);
+        Cat c1= new Cat("Zoe",4.8,"grey","Tara");
+        SiamiCat s1=new SiamiCat("Molly",8.8,"white","Yotveta","blue");
+
+        Animal [] str= new Animal[5];
+        str[0]= a1;
+        str[1]=d1;
+        str[2]=l1;
+        str[3]=c1;
+        str[4]=s1;
+
+        for(int i=0;i< str.length;i++)
+        {
+            str[i].gotoVet(str[i].name);
+        }
+
+        for(int i=0;i< str.length;i++)
+        {
+            str[i].AnimalSize(str[i]);
+        }
+
+        d1.guardHouse(d1);
+        
+
+    }
+
+}
