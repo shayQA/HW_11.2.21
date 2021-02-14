@@ -1,0 +1,15 @@
+package com.company;
+
+public class Labrador extends Dog1 {
+    public double intellegenceQuantity;
+
+    public Labrador(String name, double size, String color, int barkLength, double intellegenceQuantity) {
+        super(name, size, color, barkLength);
+        this.intellegenceQuantity = intellegenceQuantity;
+    }
+
+    public void bringSlippers()
+    {
+        System.out.println("the Labrador got the slippers.");
+    }
+}
