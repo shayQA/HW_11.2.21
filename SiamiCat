@@ -1,0 +1,10 @@
+package com.company;
+
+public class SiamiCat extends Cat{
+    public SiamiCat(String name, double size, String color, String favoriteMilkName, String specialColor) {
+        super(name, size, color, favoriteMilkName);
+        this.specialColor = specialColor;
+    }
+
+    public String specialColor;
+}
