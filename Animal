@@ -1,0 +1,23 @@
+package com.company;
+
+public class Animal {
+    public String name;
+    public double size;
+    public String color;
+
+    public Animal(String name, double size, String color) {
+        this.name = name;
+        this.size = size;
+        this.color = color;
+    }
+
+    public void AnimalSize(Animal a)
+    {
+        System.out.println("The size of "+ a.name+ " is "+a.size);
+    }
+
+    public void gotoVet(String a)
+    {
+        System.out.println(a+" went to vet.");
+    }
+}
