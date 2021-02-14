@@ -1,0 +1,15 @@
+package com.company;
+
+public class Cat extends Animal{
+    public String favoriteMilkName;
+
+    public Cat(String name, double size, String color, String favoriteMilkName) {
+        super(name, size, color);
+        this.favoriteMilkName = favoriteMilkName;
+    }
+
+    public void caddle()
+    {
+        System.out.println("The cat cuddles.");
+    }
+}
